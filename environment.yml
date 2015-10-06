@@ -1,12 +1,12 @@
 name: example-environment
 
 dependencies:
-  - python>=3.4
+  - docopt
+  - python=3.4
   - matplotlib
   - numpy
+  - scikit-learn
   - scipy
   - pip:
     - brandelion
-    - docopt
-    - scikit-learn
     - tabulate
