@@ -8,5 +8,5 @@ dependencies:
   - pip:
     - brandelion
     - docopt
-    - sklearn
+    - scikit-learn
     - tabulate
