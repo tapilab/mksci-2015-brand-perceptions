@@ -1,4 +1,5 @@
 brandelion
+docopt
 matplotlib
 numpy
 scipy
