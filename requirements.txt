@@ -3,4 +3,5 @@ docopt
 matplotlib
 numpy
 scipy
+sklearn
 tabulate
