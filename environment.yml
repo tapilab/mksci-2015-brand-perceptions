@@ -1,0 +1,11 @@
+name: example-environment
+
+dependencies:
+  - python=3.4
+  - matplotlib
+  - numpy
+  - scipy
+  - pip:
+    - brandelion
+    - docopt
+    - tabulate
