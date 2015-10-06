@@ -3,3 +3,5 @@ Replication code for the paper "Mining Brand Perceptions from Twitter Social Net
 ## Contents
 
 - **[MKSCI-Replication.ipynb](https://github.com/tapilab/mksci-2015-brand-perceptions/blob/master/Mksci-Replication.ipynb):** IPython notebook to replicate figures and tables from the paper. 
+
+[![Binder](http://mybinder.org/badge.svg)](http://mybinder.org/repo/tapilab/mksci-2015-brand-perceptions)
