@@ -31,17 +31,24 @@ Each of these subfolders contains the following:
 
 ## Code
 
-All analysis is done in Python, using a single iPython notebook:
+All analysis is done in Python3, using a single iPython notebook:
 **[MKSCI-Replication.ipynb](https://github.com/tapilab/mksci-2015-brand-perceptions/blob/master/Mksci-Replication.ipynb):** 
 
 The IPython notebook replicates the figures and tables from the paper. To learn more about iPython Notebooks, see the documentation here: <http://ipython.org/notebook.html>. Notebooks are increasingly being used for replicability, as the notebook integrates Python code, its output, and documentation in one file (for an overview, see http://www.nature.com/news/interactive-notebooks-sharing-the-code-1.16261). 
 
 It can take some effort to get iPython installed locally. If this is an issue, a static version of the notebook can be viewed here:
-<Mksci-Replication.html>
+[Mksci-Replication.html](Mksci-Replication.html)
 
 Additionally, we have integrated our code with Binder (http://mybinder.org/), which is a pretty amazing tool that provides a web interface to run iPython notebooks on a remote server. This allows one to reproduce our analysis without installing or configuring anything. This is now available here:
 <http://mybinder.org/repo/tapilab/mksci-2015-brand-perceptions>
 
 
 [![Binder](http://mybinder.org/badge.svg)](http://mybinder.org/repo/tapilab/mksci-2015-brand-perceptions)
+
+If you wish to run the code locally, there are a few external Python libraries you will need to install. First, be sure you've installed [pip](https://pypi.python.org/pypi/pip/), which is the Python package manager. Then, from the command-line, you can run:
+`pip install -r requirements.txt`
+This will install all required libraries. 
+
+Finally, you can launch the notebook with:
+`ipython notebook Mksci-Replication.ipynb`
 
