@@ -10,6 +10,8 @@ All requisite data is downloadable here (333M):
 
 <https://www.dropbox.com/s/rvzn98l3a3278v9/mksci-data.tgz?dl=1>
 
+(Note that if you run the Python code, this data will automatically be downloaded and unzipped for you.)
+
 The contents of this archive are as follows: 
 - **brands.txt**: A list of Twitter accounts for each of the 168 brands considered (after removing those without sufficient survey responses).
 - **brands_followers.txt**: The follower ids for each brand, up to 500K. All follower files have one account per line. The first value is the time stamp for when the followers were collected, the second value is the screen_name of the account, the remaining values are the Twitter IDs of each follower.
