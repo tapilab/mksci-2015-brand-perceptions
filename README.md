@@ -1,5 +1,8 @@
-Replication code for the paper "Mining Brand Perceptions from Twitter Social Networks," by Aron Culotta and Jennifer Cutler, published in *Marketing Science*.
+Replication code for the paper "Mining Brand Perceptions from Twitter Social Networks," by Aron Culotta and Jennifer Cutler, published in *Marketing Science*. (The latest version of this documentation is at <https://github.com/tapilab/mksci-2015-brand-perceptions/>). 
 
+In this paper, we estimate how consumers rate brands along three *perceptual attributes*: eco-friendliness, luxury, and nutrition. To do so, we analyze each brand's Twitter follower network, and compare it to the followers of an automatically identified set of exemplar accounts (e.g., `@Greenpeace` is one of the exemplar accounts for the eco-friendliness attribute). We compare our estimates to primary survey data of consumer perceptions, finding strong correlations across all three attributes.
+
+We have made available all of our primary data (Twitter network and survey results), as well as Python code to replicate our results.
 
 ## Data
 
@@ -32,7 +35,7 @@ Each of these subfolders contains the following:
 ## Code
 
 All analysis is done in Python3, using a single iPython notebook:
-**[MKSCI-Replication.ipynb](https://github.com/tapilab/mksci-2015-brand-perceptions/blob/master/Mksci-Replication.ipynb):** 
+**[MKSCI-Replication.ipynb](Mksci-Replication.ipynb)** 
 
 The IPython notebook replicates the figures and tables from the paper. To learn more about iPython Notebooks, see the documentation here: <http://ipython.org/notebook.html>. Notebooks are increasingly being used for replicability, as the notebook integrates Python code, its output, and documentation in one file (for an overview, see http://www.nature.com/news/interactive-notebooks-sharing-the-code-1.16261). 
 
@@ -46,9 +49,12 @@ Additionally, we have integrated our code with Binder (http://mybinder.org/), wh
 [![Binder](http://mybinder.org/badge.svg)](http://mybinder.org/repo/tapilab/mksci-2015-brand-perceptions)
 
 If you wish to run the code locally, there are a few external Python libraries you will need to install. First, be sure you've installed [pip](https://pypi.python.org/pypi/pip/), which is the Python package manager. Then, from the command-line, you can run:
+
 `pip install -r requirements.txt`
+
 This will install all required libraries. 
 
 Finally, you can launch the notebook with:
+
 `ipython notebook Mksci-Replication.ipynb`
 
