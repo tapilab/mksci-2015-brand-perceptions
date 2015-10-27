@@ -31,7 +31,7 @@ Each of these subfolders contains the following:
 - **exemplars.txt**: The exemplar Twitter accounts for this perceptual attribute.
 - **exemplar_followers.txt**: The followers of each exemplar.
 - **nexemplars/**: Results of correlation versus number of exemplars (Figure 7a)
-- **survey/**: A subfolder with the average survey ratings for this perceptrual attribute, separated by brand category (e.g., Cars, Apparel, ...)
+- **survey/**: A subfolder with the average survey ratings for this perceptual attribute, separated by brand category (e.g., Cars, Apparel, ...)
 
 
 ## Code
